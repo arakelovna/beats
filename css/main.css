@@ -663,7 +663,7 @@ p {
   margin-right: 0;
 }
 .benefits__item:before {
-  content: url("../../img/dots.svg");
+  content: url("./../img/dots.svg");
   position: absolute;
   top: 60px;
   left: 259px;
@@ -1081,7 +1081,7 @@ p {
   border-radius: 0;
 }
 .radio--checkbox .radio__visible:before {
-  background: url("../../img/tick.png");
+  background: url("./../img/tick.png");
   background-repeat: no-repeat;
 }
 .radio:last-child {
