@@ -1,0 +1,29 @@
+.separator {
+    display:flex;
+  
+ }
+ .separator--one {
+     justify-content: flex-end;
+     margin-top: -25px;
+     margin-right: 126px;
+ }
+ .separator--two {
+     justify-content: flex-start;
+     margin-top: -23px;
+     margin-left: 59px;
+ }
+ .separator--three {
+     justify-content: flex-end;
+     margin-top: -22px;
+     margin-right: 70px;
+ }
+ .separator--four {
+     justify-content: flex-start;
+     margin-top: -48px;
+     margin-left: 79px;
+ }
+ .separator--five {
+     justify-content: flex-end;
+     margin-top: -24px;
+     margin-right: 99px;
+ }

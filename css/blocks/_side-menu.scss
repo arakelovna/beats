@@ -1,0 +1,44 @@
+.side-menu { 
+    display: flex;
+    position:fixed;
+    z-index: z-side-menu;
+    top:20%;
+    right:3%;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 43px;
+    margin-top: -6px;
+
+    }
+    
+.side-menu__link {
+    display:block;
+    width: 6px;
+    height: 6px;
+    background: #292929;
+    opacity: 60%;
+    border-radius: 50%;
+    padding: 0px; 
+}
+.side-menu__link--active {
+    background: #E01F3D;
+    opacity: 100%;
+}
+    
+    
+.side-menu__item {
+    margin-bottom: 15.5px;
+    display: flex;
+}
+.side-menu__item:last-child {
+    margin-bottom: 0px;
+}
+.side-menu__list {
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu__img {
+    margin-top: -5px;
+    margin-left: -11px;
+}

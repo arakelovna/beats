@@ -1,0 +1,28 @@
+.benefits {
+    display: flex;
+   
+}
+.benefits__item {
+    flex: 1;
+    margin: 0 3%;
+    position: relative;
+
+    &:first-child {
+        margin-left: 0;
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:before {
+        content: url(../../img/dots.svg);
+        position:absolute;
+        top: 60px;
+        left: 259px;
+    }
+
+    &:last-child::before{
+        content: "";
+    }
+
+}   

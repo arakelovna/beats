@@ -1,0 +1,29 @@
+.section {
+    position: relative;
+    height: 100vh;
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &:before {
+        position: absolute;
+        bottom:-25px;
+        left: 5%;
+        content: url("../../img/fig2.png" )
+
+    }
+
+    
+}
+
+.section__title {
+    font-family: "Play", Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    text-transform: uppercase;
+    margin: 0px 0 24px 0;
+    text-align: center;
+}
+
