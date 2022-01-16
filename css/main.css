@@ -498,11 +498,11 @@ p {
   position: absolute;
   bottom: -25px;
   right: 5%;
-  content: url("../../img/fig1.png");
+  content: url("./../img/fig1.png");
 }
 
 .hero__container {
-  background: url(../../img/beats.png) right center/53% auto no-repeat;
+  background: url("./../img/beats.png") right center/53% auto no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -663,7 +663,7 @@ p {
   margin-right: 0;
 }
 .benefits__item:before {
-  content: url(../../img/dots.svg);
+  content: url("../../img/dots.svg");
   position: absolute;
   top: 60px;
   left: 259px;
