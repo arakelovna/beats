@@ -3,11 +3,20 @@ $baseFontSize: 16px;
 $z-side-menu: 100;
 
 
+//breakpoints 
+$tablets: 768px;
+$phones: 480px;
+
+//px--->rem 
+@import './layout/media.scss';
+
 @import './layout/fonts.scss';
 @import './layout/normalize.scss';
 @import './layout/base.scss';
 @import './blocks/header.scss';
 @import './blocks/menu.scss';
+@import './blocks/hamburger.scss';
+@import './blocks/logo.scss';
 @import './blocks/hero.scss';
 @import './blocks/button.scss';
 @import './blocks/features.scss';
@@ -23,8 +32,6 @@ $z-side-menu: 100;
 @import './blocks/delivery.scss';
 @import './blocks/form.scss';
 @import './blocks/radio.scss';
-
-
 
 
 
