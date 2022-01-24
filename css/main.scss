@@ -1,6 +1,7 @@
 $containerWidth: 940px;
 $baseFontSize: 16px;
 $z-side-menu: 100;
+$z-hamburger: 100;
 
 
 //breakpoints 
@@ -32,7 +33,9 @@ $phones: 480px;
 @import './blocks/delivery.scss';
 @import './blocks/form.scss';
 @import './blocks/radio.scss';
-
+@import  './blocks/map.scss';
+@import  './blocks/footer.scss';
+@import  './blocks/social.scss';
 
 
 
