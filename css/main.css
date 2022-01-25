@@ -1548,16 +1548,22 @@ svg path {
 
 .map__img {
   width: 100%;
+  margin-bottom: 5.625rem;
 }
 
 .map__container {
   position: relative;
-  min-height: 43.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
 }
-@media screen and (max-width: 480px) {
-  .map__container {
-    min-height: 34.75rem;
-  }
+
+.map__img-container {
+  width: 100%;
 }
 
 .footer {
@@ -1572,10 +1578,9 @@ svg path {
           align-items: center;
   font-family: "Play", Helvetica, sans-serif;
   position: absolute;
-  bottom: 8%;
+  bottom: 1%;
+  padding: 0 2.25rem;
   width: 100%;
-  max-width: 940px;
-  margin: 0 auto;
 }
 @media screen and (max-width: 480px) {
   .footer {
@@ -1656,5 +1661,5 @@ svg path {
   margin-right: 0.625rem;
 }
 .social__item:last-child {
-  margin-right: 0.625rem;
+  margin-right: 0;
 }
