@@ -36,7 +36,7 @@
                                     <a href="#" class="menu__link" > Команда</a>
                                 </li>
                                 <li class="menu__item">
-                                    <a href="#" class="menu__link" > Цвета</a>
+                                    <a href="#" class="menu__link" >Цены</a>
                                 </li>
                                 <li class="menu__item">
                                     <a href="#" class="menu_link" > Отзывы</a>
@@ -155,8 +155,88 @@
                     </ul>
                 </div>
             </section>
+            <section class="slider-order">
+                <div class="container slider__container">
+                    <div class="slider__left slide">
+                        <button class="slide__btn left-btn"></button>
+                    </div>
+                    <div class="slider">
+                        <div class="slider__img-container">                            
+                        </div>
+                        <div class="slider__content">
+                            <div class="slider__settings setting">
+                                <div class="setting__inner">
+                                    <svg class="setting__inner-img">
+                                        <use xlink:href="./sprite.svg#set"> </use>
+                                    </svg>
+                                </div>
+                                <div class="setting__contecst">
+                                    <ul class="setting__contecst-list">
+                                        <li class="setting__contecst-item">
+                                            <div class="setting__contecst-title setting__contecst-title--bt">Bluetooth</div>
+                                            <div class="setting__contecst-num">4.0</div>
+                                        </li>
+                                        <li class="setting__contecst-item">
+                                            <div class="setting__contecst-title setting__contecst-title--far">Дальность</div>
+                                            <div class="setting__contecst-num">12 м</div>
+                                        </li>
+                                        <li class="setting__contecst-item">
+                                            <div class="setting__contecst-title setting__contecst-title--char">Зарядка</div>
+                                            <div class="setting__contecst-num">3 ч</div>
+                                        </li>
+                                        <li class="setting__contecst-item">
+                                            <div class="setting__contecst-title setting__contecst-title--kg">Вес</div>
+                                            <div class="setting__contecst-num">215 гр</div>
+                                        </li>
+                                        <li class="setting__contecst-item">
+                                            <div class="setting__contecst-title setting__contecst-title--patent">Гарантия</div>
+                                            <div class="setting__contecst-num">1 год</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="slider__title">
+                                <h3 class="slider__desc-line">beats solo 3. цвет 
+                                    «атласное серебро»
+                                </h3>
+                            </div>
+                            <div class="slider__desc">
+                                <p class="slider__desc-text">Беспроводные наушники Beats Solo3 готовы к работе в любой момент. Включите их и поднесите к своему iPhone — они мгновенно подключатся к нему.
+                                </p>
+                            </div>
+                            <div class="slider__details ordering">
+                               <div class="ordering__features">
+                                   <ul class="ordering__features-list">
+                                       <li class="ordering__features-item">
+                                            <h3 class="ordering__features-title">Зарядка</h3>
+                                            <h3 class="ordering__features-desc">2 часа</h3>
+                                       </li>
+                                       <li class="ordering__features-item">
+                                            <h3 class="ordering__features-title">Вес</h3>
+                                            <h3 class="ordering__features-desc">215 грамм</h3>
+                                        </li>
+                                   </ul>
+                               </div>
+                               <div class="ordering__final">
+                                    <div class="ordering__price">
+                                        <div class="ordering__price-number">14 990</div>
+                                        <div class="ordering__price-currency">₽</div>
+                                    </div>
+                                    <div class="ordering__btn">
+                                        <button class="btn btn--ordering">Заказать</button>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__right slide">
+                        <button class="slide__btn right-btn"></button>
+                    </div>
+                </div>
+    
+            </section>
         </div>
-        <div class="container team__container">страница заказа</div>
+       
         <div class="container team__container">
             <h1 class="team-title">КОМАНДА</h1>
             <!--
@@ -385,11 +465,11 @@
         
     </div>
     
-    <a href="" class="hamburger">
-        <span class="hamburger__plank"></span>
-        <span class="hamburger__plank"></span>
-        <span class="hamburger__plank"></span>
-    </a>
+    <div href="" class="hamburger" id="hamburger">
+        <span class="hamburger__plank" id="plank-right"></span>
+        <span class="hamburger__plank"  id="plank-left"></span>
+        <span class="hamburger__plank"  id="plank-hide"></span>
+    </div>
     <div class="side-menu">
         <ul class="side-menu__list">
             <li class="side-menu__item">
@@ -421,5 +501,35 @@
             </li>
         </ul>   
     </div>
+    <div class="overlay" id="overlay">
+        <div class="overlay__menu" > 
+            
+            <ul class="menu__list--vertical">
+                <li class="menu__item--vertical">
+                    <a href="#" class="menu__link" > О нас</a>
+                </li>
+                <li class="menu__item--vertical">
+                    <a href="#" class="menu__link" > Наушники</a>
+                </li>
+                <li class="menu__item--vertical">
+                    <a href="#" class="menu__link" > Команда</a>
+                </li>
+                <li class="menu__item--vertical">
+                    <a href="#" class="menu__link" > Цены</a>
+                </li>
+                <li class="menu__item--vertical">
+                    <a href="#" class="menu_link" > Отзывы</a>
+                </li>
+                <li class="menu__item--vertical">
+                    <a href="#" class="menu__link" > Как мы работаем </a>
+                </li>
+                <li class="menu__item--vertical" >
+                    <a href="#" class="menu__link" > Контакты </a>
+                </li>
+            </ul>
+            
+        </div> 
+    </div>
+    <script src="beats.js"></script>
 </body>
 </html>
