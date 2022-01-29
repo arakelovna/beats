@@ -2,6 +2,7 @@ $containerWidth: 940px;
 $baseFontSize: 16px;
 $z-side-menu: 100;
 $z-hamburger: 100;
+$z-overlay: 10;
 
 
 //breakpoints 
@@ -36,6 +37,12 @@ $phones: 480px;
 @import  './blocks/map.scss';
 @import  './blocks/footer.scss';
 @import  './blocks/social.scss';
+@import  './blocks/overlay.scss';
+@import  './blocks/slider.scss';
+@import  './blocks/slide.scss';
+@import  './blocks/setting.scss';
+@import  './blocks/ordering.scss';
+
 
 
 
