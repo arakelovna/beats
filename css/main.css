@@ -1728,6 +1728,7 @@ svg path {
   margin: 2.5rem 0;
   font-size: 2.25rem;
   font-family: "Play", Helvetica, sans-serif;
+  text-align: center;
 }
 
 .slider-order {
@@ -1899,11 +1900,35 @@ svg path {
   background: #9A9A9A;
   margin-bottom: 1.5625rem;
   position: relative;
+  z-index: 50;
 }
 @media screen and (max-width: 768px) {
   .setting {
     display: none;
   }
+}
+.setting__inner {
+  height: 91px;
+  width: 91px;
+  z-index: 50;
+}
+.setting__inner-contecst {
+  opacity: 0;
+  z-index: 50;
+}
+.setting__inner-contecst::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 110px;
+  left: -91px;
+  right: 0;
+  top: 0px;
+  z-index: 50;
+}
+
+.setting:hover .setting__inner-contecst {
+  opacity: 1;
 }
 
 .setting__inner-img {
@@ -1912,9 +1937,11 @@ svg path {
   width: 42px;
   top: 27%;
   left: 27%;
+  z-index: 50;
 }
 
-.setting__contecst {
+.contecst {
+  font-family: "Play", Helvetica, sans-serif;
   position: absolute;
   top: 0;
   left: 100%;
@@ -1938,21 +1965,62 @@ svg path {
       -ms-flex-align: center;
           align-items: center;
   padding: 25px 25px;
-  opacity: 0;
 }
 
-.setting__contecst-item {
+.contecst__item {
   margin-bottom: 28px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
 }
-.setting__contecst-item:last-child {
+.contecst__item:last-child {
   margin-bottom: 0;
 }
 
-.setting__contecst-title {
-  margin-right: 20px;
+.contecst__list {
+  width: 13.9375rem;
+}
+
+.contecst__title--bt {
+  height: 24px;
+}
+.contecst__title--bt::before {
+  content: url("./../img/bt.svg");
+  margin-right: 16px;
+  float: left;
+  margin-top: -5px;
+}
+
+.contecst__title--far::before {
+  content: url("./../img/far.svg");
+  margin-right: 16px;
+  float: left;
+  margin-top: -5px;
+}
+
+.contecst__title--char::before {
+  content: url("./../img/charger.svg");
+  margin-right: 16px;
+  float: left;
+  margin-top: -5px;
+}
+
+.contecst__title--kg::before {
+  content: url("./../img/kg.svg");
+  margin-right: 16px;
+  float: left;
+  margin-top: -5px;
+}
+
+.contecst__title--patent::before {
+  content: url("./../img/patent.svg");
+  margin-right: 16px;
+  float: left;
+  margin-top: -5px;
 }
 
 .ordering__features {
