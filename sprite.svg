@@ -123,5 +123,11 @@
     <path d="M2.81415 15.0056H9.65442V16.4119H2.81415V15.0056Z" fill="black"></path>
     <path d="M2.81415 12.1908H9.65442V13.597H2.81415V12.1908Z" fill="black"></path>
   </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 7" id="arrow-down">
+    <path d="M4.5 7L0.602887 0.249999L8.39711 0.25L4.5 7Z" fill="#E01F3D"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8" id="arrow-up">
+    <path d="M4.00002 0.5L7.89713 7.25L0.102901 7.25L4.00002 0.5Z" fill="#E01F3D"></path>
+  </symbol>
 
 </svg>
