@@ -9,6 +9,8 @@ $z-overlay: 10;
 $tablets: 768px;
 $phones: 480px;
 
+
+
 //px--->rem 
 @import './layout/media.scss';
 
@@ -35,7 +37,10 @@ $phones: 480px;
 @import './blocks/teams.scss';
 @import './blocks/team.scss';
 @import './blocks/team-tab.scss';
+@import './blocks/colors.scss';
+@import './blocks/color.scss';
 @import './blocks/reviews.scss';
+@import './blocks/player.scss';
 @import './blocks/interactive-avatar.scss';
 @import './blocks/side-menu.scss';
 @import './blocks/delivery.scss';
