@@ -5,7 +5,8 @@ let plankRight = document.querySelector ("#plank-right");
 let plankLeft = document.querySelector ("#plank-left");
 let plankHide= document.querySelector ("#plank-hide");
 
-let links = document.querySelectorAll (".menu__link");
+let links = document.querySelectorAll (".menu__link-burger");
+
 
 links.forEach(function(element) {
     element.addEventListener("click", toggleMenu);
@@ -113,47 +114,9 @@ $('.team-tab__item-link').click(e=>{
     }
 })
 
+
+
 //slider functioning
-// $(document).ready(()=> {
-    
-//     $('.slider__right').on('click', e => {
-//         e.preventDefault();
-
-//         $('.slider').animate({
-        
-//             'width': '0'
-            
-//         },200);
-
-//         $('.slider-red').animate({
-        
-//             'width': '810.44px'
-//         },200);
-
-//     })
-// })
-
-// $(document).ready(()=> {
-    
-//     $('.slider__left').on('click', e => {
-//         e.preventDefault();
-
-//         $('.slider').animate({
-        
-//             'width': '810.44px'
-            
-//         },200);
-
-//         $('.slider-red').animate({
-        
-//             'width': '0'
-//         },200);
-
-//     })
-// })
-
-
-//slideshow functioning
 
 const findBlockByAlias = (alias) => {
     return $(".reviews__item").filter((ndx, item) => {
