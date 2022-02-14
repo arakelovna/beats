@@ -598,7 +598,7 @@ svg path {
 
 .hero {
   background-color: #F5F5F5;
-  height: 100vh;
+  height: 100%;
   min-height: 40.625rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2107,7 +2107,6 @@ svg path {
 @media screen and (max-width: 480px) {
   .player__playback {
     width: 16.5rem;
-    margin-right: 0.4375rem;
   }
 }
 
